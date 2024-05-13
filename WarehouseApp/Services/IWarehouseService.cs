@@ -4,6 +4,6 @@ namespace APBD_Zadanie_6.Services;
 
 public interface IWarehouseService
 {
-    Task<int> AddProduct(ProductWarehouseDto productWarehouseDto);
-    Task<int> AddProductByProcedure(ProductWarehouseDto product);
+    Task<int> AddProductWarehouse(ProductWarehouseDto productWarehouseDto);
+    Task<int> AddProductWarehouseByProcedure(ProductWarehouseDto product);
 }
